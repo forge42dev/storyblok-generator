@@ -5,7 +5,7 @@ export default defineConfig({
 	sourcemap: true,
 	clean: true,
 	dts: true,
-	minify: false,
+	minify: true,
 	format: ["esm", "cjs"],
 	outDir: "dist",
 	external: ["vite", "node:*", "chalk"],
