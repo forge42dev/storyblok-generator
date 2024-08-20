@@ -1,7 +1,7 @@
 {
 	"name": "storyblok-generator",
-	"version": "1.0.0",
-	"description": "Minimal open-source stack to help you ship an open-source package in TS",
+	"version": "1.0.1",
+	"description": "Generate Storyblok components out of your components.json file and get full type-safety and bundle splitting out of the box",
 	"main": "./dist/index.js",
 	"module": "./dist/index.mjs",
 	"types": "./dist/index.d.mts",
