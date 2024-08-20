@@ -265,8 +265,8 @@ const pullAndGenerate = async ({
 				debug,
 			})
 		}
-		log(chalk.bold.red("Storyblok Components pull failed!"))
-		log(chalk.bold.red("Check your Storyblok space ID and if you're logged in to Storyblok"))
+		//log(chalk.bold.red("Storyblok Components pull failed!"))
+		//log(chalk.bold.red("Check your Storyblok space ID and if you're logged in to Storyblok"))
 	})
 }
 
