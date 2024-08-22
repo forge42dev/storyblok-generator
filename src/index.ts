@@ -84,8 +84,10 @@ const generateComponents = async ({
 				fileName: componentFileName,
 			}
 
-			if ((await componentExists(componentFile)) && debug) {
-				log(`⚠️  Component ${chalk.yellow(componentName)} already exists. Skipping...`)
+			if (await componentExists(componentFile)) {
+				if (debug) {
+					log(`⚠️  Component ${chalk.yellow(componentName)} already exists. Skipping...`)
+				}
 				return returnData
 			}
 			const hasBody = component?.schema?.body

@@ -1,6 +1,6 @@
 {
 	"name": "storyblok-generator",
-	"version": "1.0.3",
+	"version": "1.0.4",
 	"description": "Generate Storyblok components out of your components.json file and get full type-safety and bundle splitting out of the box",
 	"main": "./dist/index.js",
 	"module": "./dist/index.mjs",
