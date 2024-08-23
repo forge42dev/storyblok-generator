@@ -101,7 +101,7 @@ const generateComponents = async ({
 				`import { type SbBlokData, storyblokEditable${hasBody || hasColumns ? ", StoryblokComponent" : ""} } from "@storyblok/react";`,
 				`import type { ${name}Storyblok } from "${typeResolution}";`,
 				"",
-				`export const ${name} = ({ blok }: { blok: ${name}Storyblok }) => {`,
+				`const ${name} = ({ blok }: { blok: ${name}Storyblok }) => {`,
 				"  return (",
 				"    <div {...storyblokEditable(blok as SbBlokData)} key={blok._uid}>",
 				getComponentContents(component),
